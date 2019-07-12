@@ -1,9 +1,3 @@
-import express from 'express';
+import app from './app';
 
-const server = express();
-
-server.get('/teste', (req, res) => {
-  res.json({ message: 'ola, node.' });
-});
-
-server.listen(3000);
+app.listen(3333);

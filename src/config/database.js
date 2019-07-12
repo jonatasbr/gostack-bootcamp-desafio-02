@@ -6,7 +6,7 @@ module.exports = {
   database: 'meetapp',
   define: {
     timestamps: true,
-    undescored: true,
-    underscoreAll: true,
+    underscored: true,
+    underscoredAll: true,
   },
 };
